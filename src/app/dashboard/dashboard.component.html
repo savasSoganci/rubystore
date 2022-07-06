@@ -1,0 +1,10 @@
+<div class="urunler-menu">
+  <h2>MENÜ</h2>
+  <div class="heroes-menu">
+    <a *ngFor="let hero of heroes"
+      routerLink="/detail/{{hero.id}}" class="border_radius">   
+      <span class="name-span">{{hero.name}}</span>
+      <span class="image-span"><img class="images" [src] ="hero.image" style="width: 50%" alt="Görsel Bulunmamaktadır."></span>
+    </a>
+  </div>
+</div>

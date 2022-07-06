@@ -1,0 +1,14 @@
+<h2 class="tas-class">Ürün Tanımları</h2>
+<mat-accordion>
+  <mat-expansion-panel hideToggle *ngFor="let stone of stones;" class="taslar-class">
+    <mat-expansion-panel-header>
+      <mat-panel-title class="taslar-class-icerik">
+          <span class="badge">{{stone.name}}</span>
+      </mat-panel-title>
+      <mat-panel-description class="taslar-class-icerik">
+        {{stone.tahmini_ucret}}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    {{stone.content}}
+  </mat-expansion-panel>
+</mat-accordion>

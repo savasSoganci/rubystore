@@ -1,11 +1,6 @@
-/* AppComponent's private CSS styles */
-h1 {
-    margin-bottom: 0;
-  }
-  nav a {
+nav a {
     padding: 1rem;
     text-decoration: none;
-    margin-top: 10px;
     display: inline-block;
     background-color: #e8e8e8;
     color: #3d3d3d;
@@ -20,3 +15,13 @@ h1 {
     background-color: black;
   }
 
+  .mat-toolbar{
+    background-color: rgb(182, 36, 0);
+    color: white;
+  }
+  .mat-button{
+     color: white;
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }  
